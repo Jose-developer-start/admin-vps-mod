@@ -1,14 +1,14 @@
 #!/bin/bash
 
 ## trans
-wget -O /usr/bin/trans https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/ArchivosUtilitarios/trans &> /dev/null
+wget -O /usr/bin/trans https://raw.githubusercontent.com/Jose-developer-start/admin-vps-mod/main/Install/ArchivosUtilitarios/trans &> /dev/null
 
 ## Version
-wget -O /etc/versin_script https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/Version &> /dev/null
-wget -O /etc/versin_script_new https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/Version &>/dev/null
+wget -O /etc/versin_script https://raw.githubusercontent.com/Jose-developer-start/admin-vps-mod/main/Install/Version &> /dev/null
+wget -O /etc/versin_script_new https://raw.githubusercontent.com/Jose-developer-start/admin-vps-mod/main/Install/Version &>/dev/null
 
 ## SPR
-wget -O /usr/bin/SPR https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/SPR/SPR &> /dev/null
+wget -O /usr/bin/SPR https://raw.githubusercontent.com/Jose-developer-start/admin-vps-mod/main/Install/SPR/SPR &> /dev/null
 chmod +x /usr/bin/SPR
 
 ## lognull

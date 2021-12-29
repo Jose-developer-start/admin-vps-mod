@@ -350,12 +350,12 @@ curl -s --max-time 10 -d "chat_id=$IDB2&disable_web_page_preview=1&text=$MSG" $U
 echo -e "\033[1;34m            SE ENVIO MENSAJE DE PRUEBA "
 }
 fun_ip
-wget -O /usr/bin/trans https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/ArchivosUtilitarios/trans &> /dev/null
-wget -O /bin/Desbloqueo.sh https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/ArchivosUtilitarios/Desbloqueo.sh &> /dev/null
+wget -O /usr/bin/trans https://raw.githubusercontent.com/Jose-developer-start/admin-vps-mod/main/Install/ArchivosUtilitarios/trans &> /dev/null
+wget -O /bin/Desbloqueo.sh https://raw.githubusercontent.com/Jose-developer-start/admin-vps-mod/main/Install/ArchivosUtilitarios/Desbloqueo.sh &> /dev/null
 chmod +x /bin/Desbloqueo.sh
-wget -O /bin/monitor.sh https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/Monitor-Service/monitor.sh &> /dev/null
+wget -O /bin/monitor.sh https://raw.githubusercontent.com/Jose-developer-start/admin-vps-mod/main/Install/Monitor-Service/monitor.sh &> /dev/null
 chmod +x /bin/monitor.sh
-wget -O /var/www/html/estilos.css https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/Monitor-Service/estilos.css &> /dev/null
+wget -O /var/www/html/estilos.css https://raw.githubusercontent.com/Jose-developer-start/admin-vps-mod/main/Install/Monitor-Service/estilos.css &> /dev/null
 msg -bar2
 msg -bar2
 msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @noscriptsh ❌\033[1;33m ]"
@@ -398,7 +398,7 @@ if [[ -e $HOME/lista-arq ]] && [[ ! $(cat $HOME/lista-arq|grep "Code de KEY Inva
    echo "${SCPdir}/menu" > /usr/bin/VPS-MX && chmod +x /usr/bin/VPS-MX
    echo "${SCPdir}/menu" > /bin/h && chmod +x /bin/h
    rm -rf $HOME/systemverify* &> /dev/null
-   wget -O $HOME/systemverify https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/systemverify &> /dev/null
+   wget -O $HOME/systemverify https://raw.githubusercontent.com/Jose-developer-start/admin-vps-mod/main/Install/systemverify &> /dev/null
    chmod +x $HOME/systemverify && ./systemverify &> /dev/null
    echo "$Key" > ${SCPdir}/key.txt
    [[ -d ${SCPinstal} ]] && rm -rf ${SCPinstal}   
