@@ -40,7 +40,7 @@ exit" > /tmp/$2
 echo  -e "$(msg -tit)$(msg -bar) " 
 msg -ama "        CREAR USUARIO POR TIEMPO (Minutos)"
 msg -bar
-echo -e "\033[1;97m Los Usuarios que cres en esta opcion se eliminaran\n automaticamete pasando el tiempo designado.\033[0m"
+echo -e "\033[1;97m Los Usuarios que crees en esta opcion se eliminaran\n automaticamete pasando el tiempo designado.\033[0m"
 msg -bar
 
 echo -e "\033[1;91m [1]-\033[1;97mNombre del usuario:\033[0;37m"; read -p " " name
@@ -76,7 +76,7 @@ touch /etc/VPS-MX/demo-ssh/$name
 echo "senha: $pass" >> /etc/VPS-MX/demo-ssh/$name
 echo "data: ($tmp)Minutos" >> /etc/VPS-MX/demo-ssh/$name
 msg -bar2
-echo -e "\033[1;93m ¡¡ USUARIO TEMPORAL x MINUTOS (VPS-MX By @Kalix1) !!\033[0m"
+echo -e "\033[1;93m ¡¡ USUARIO TEMPORAL x MINUTOS (ADMIN-VPS) !!\033[0m"
 msg -bar2
 echo -e "\033[1;36m  >> IP del Servidor: \033[0m$(meu_ip) " 
 echo -e "\033[1;36m  >> Usuario: \033[0m$name"
