@@ -11,9 +11,6 @@
 * Version 8.4 Preferente Ubuntu 20.04 Server x86_64
 * Recomendamos Ubuntu 16.04 Server x86_64 / 18.04 Server x86_64
 * Se recomienda usar una distro nueva o formatiada
-* Importante esta version es de Casita Dev Team
-* Importante su uso es totalmente gratuito 
-* Source Code [Donwload](https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Install/VPS-MX-FREE_v8.4e.zip)
 
 ## :book: Installation
 
@@ -24,4 +21,4 @@ VPS-MX (las dependencias faltantes se instalarán automáticamente)
 ```
 ## :octocat: Credits
 
-1. [@Kalix1 - Developer of VPS-MX](https://github.com/VPS-MX)
+1. VPS - MX
